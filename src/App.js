@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import TheStocks from "./TheStocks"
+
 
 function App() {
   return (
     <div className="App">
-      hola!
+      <h1>Fintual Challenge</h1>
+      <TheStocks/>
+     
     </div>
   );
 }
